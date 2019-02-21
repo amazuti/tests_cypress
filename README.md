@@ -1,14 +1,16 @@
 ## Tests with Cypress
 
-Projeto para testar o Cypress
+Project for testing Cypress
 
 
-## Instalando Cypress
+## Installing Cypress
 
-Siga os passos da documentação official [Installing Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress.html#Installing)
+Follow steps original docs [Installing Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress.html#Installing)
 
-## Rodando os testes
+## Running tests
 
-Execute o comando: **./node_modules/.bin/cypress open**
+Command: **./node_modules/.bin/cypress open**
 
-Na janela que abrir escolha o "arquivo".js que estiver seus testes e click sobre duas vezes para iniciar os testes.
+Will open a window, you choice the 'file'.spec.js with your testes and click to run your test.
+
+![testing](https://user-images.githubusercontent.com/4941701/53200689-ecaa6280-3600-11e9-8291-263657710113.png)
