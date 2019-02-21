@@ -19,7 +19,7 @@ describe('Search posts', () => {
 
     cy
       .get('input[id="search-input"]')
-      .type(this.search.pesquisa1)
+      .type(this.search.value1)
       cy.contains('Tests Cypress').click()
       cy.contains('Testes com cypress')
   })
@@ -32,7 +32,7 @@ describe('Search posts', () => {
 
     cy
       .get('input[id="search-input"]')
-      .type(this.search.pesquisa2)
+      .type(this.search.value2)
       cy.contains('My webpage').click()
       cy.contains('Bem vindo(a) a minha webpage!')
   })
