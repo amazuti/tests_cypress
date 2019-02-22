@@ -5,7 +5,7 @@ describe('Search posts', () => {
     cy.fixture("/data_search").as("search");
   })
   it('should access page', () => {
-    cy.visit('https://amazuti.github.io/')
+    cy.visit('/')
 
     cy.get('h1.header.author-header')
     .contains('Adelino P Mazuti')
