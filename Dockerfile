@@ -8,4 +8,4 @@ WORKDIR /cypress
 COPY . /cypress
 
 RUN npm install --save-dev cypress
-RUN $(npm bin)/cypress run --browser chrome
+RUN $(npm bin)/cypress run

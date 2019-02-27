@@ -13,11 +13,15 @@ describe('Website teste',() => {
     it('should have click in a button menu', () => {
       cy.get('.menu-button').click()
     })
-    it('should access page All Posts', () =>{
+    it('should access page All Posts', () => {
       cy.get('i.fa.fa-archive').click()
     })
-    it('has title list post "Seja bem vindo ao meu webpage"', () => {
-      cy.contains('Seja bem vindo')
+    it('should access post "My webpage"', () => {
+      cy.contains('My webpage')
+      .click ()
+    })
+    it('has title list post "Bem vindo(a) a minha webpage!"', () => {
+      cy.contains('Bem vindo(a) a minha webpage!')
     })
   })
 })
