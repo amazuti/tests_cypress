@@ -1,3 +1,4 @@
+#base image
 FROM cypress/browsers:chrome69
 
 RUN mkdir /cypress
