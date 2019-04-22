@@ -1,7 +1,5 @@
 {
-  "baseUrl": "https://amazuti.github.io/"
-}
-{
+  "baseUrl": "https://amazuti.github.io/",
   "screenshotsFolder": "cypress/snapshots/actual",
   "trashAssetsBeforeRuns": true
 }
