@@ -1,0 +1,18 @@
+{
+  "name": "tests_cypress",
+  "version": "1.0.0",
+  "description": "POC with cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amazuti",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^1.11.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/support/step_definitions/"
+  }
+}

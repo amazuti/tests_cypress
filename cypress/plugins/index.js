@@ -11,13 +11,23 @@
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
 
-module.exports = (on, config) => {
-  // `on` is used to hook into various events Cypress emits
-  // `config` is the resolved Cypress config
-}
+// module.exports = (on, config) => {
+//   // `on` is used to hook into various events Cypress emits
+//   // `config` is the resolved Cypress config
+// };
 
-const getCompareSnapshotsPlugin = require('cypress-visual-regression/dist/plugin');
+// const cucumber = require('cypress-cucumber-preprocessor').default
+// module.exports = (on, config) => {
+//   on('file:preprocessor', cucumber())
+// };
 
-module.exports = (on) => {
-  getCompareSnapshotsPlugin(on);
+const cucumber = require("cypress-cucumber-preprocessor").default; // eslint-disable-line
+
+module.exports = on => {
+  on("file:preprocessor", cucumber());
 };
+// const getCompareSnapshotsPlugin = require('cypress-visual-regression/dist/plugin');
+//
+// module.exports = (on) => {
+//   getCompareSnapshotsPlugin(on);
+// };

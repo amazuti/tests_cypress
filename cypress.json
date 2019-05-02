@@ -1,5 +1,6 @@
 {
   "baseUrl": "https://amazuti.github.io/",
   "screenshotsFolder": "cypress/snapshots/actual",
-  "trashAssetsBeforeRuns": true
+  "trashAssetsBeforeRuns": true,
+  "ignoreTestFiles": "*.js"
 }
